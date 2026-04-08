@@ -1,0 +1,40 @@
+/**
+ * FinVoice Pro — semantic tokens (light).
+ * Dark overrides: .dark on html (see tokens.ts for programmatic mirror).
+ */
+:root {
+  --fv-bp: #fff;
+  --fv-bs: #f1efea;
+  --fv-bsh: #e8e6e1;
+  --fv-bp2: #f5f5f3;
+  --fv-t1: #1a1a18;
+  --fv-t2: #73726c;
+  --fv-t3: #a0a09a;
+  --fv-bd: rgba(0, 0, 0, 0.11);
+  --fv-bdm: rgba(0, 0, 0, 0.18);
+  --fv-bds: rgba(0, 0, 0, 0.26);
+  --fv-acc: #1d9e75;
+  --fv-accd: #0f6e56;
+  --fv-dan: #e24b4a;
+  --fv-war: #ba7517;
+  --fv-blue: #378add;
+  --fv-r4: 4px;
+  --fv-r8: 8px;
+  --fv-r12: 12px;
+  --fv-r16: 16px;
+  --fv-r20: 20px;
+  --fv-mono: "SF Mono", ui-monospace, Monaco, Consolas, monospace;
+}
+
+.dark {
+  --fv-bp: #1e1e1c;
+  --fv-bs: #272725;
+  --fv-bsh: #333330;
+  --fv-bp2: #141412;
+  --fv-t1: #f0ede8;
+  --fv-t2: #8a8980;
+  --fv-t3: #5a5a56;
+  --fv-bd: rgba(255, 255, 255, 0.09);
+  --fv-bdm: rgba(255, 255, 255, 0.16);
+  --fv-bds: rgba(255, 255, 255, 0.26);
+}
