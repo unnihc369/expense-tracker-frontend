@@ -1,7 +1,7 @@
 import { getApiBaseUrl } from "./env";
 
 const ENV_HINT =
-  "In .env.local set API_BASE_URL=http://localhost:8080/api (Express on 8080, Next on 3000).";
+  "Local dev: set API_BASE_URL=http://localhost:8080/api (Express on 8080, Next on 3000). For the deployed frontend https://finvoicepro.vercel.app/login, use https://finvoicepro-back.vercel.app/api.";
 
 /**
  * POST JSON to the Express API. Never returns empty data silently: connection,
