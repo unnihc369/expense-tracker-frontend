@@ -87,7 +87,10 @@ export function LoginForm() {
           </p>
         ) : null}
         <div className="fv-modal-footer" style={{ marginTop: 16 }}>
-          <Link href="/" className="fv-btn-cancel no-underline inline-flex items-center">
+          <Link
+            href="/"
+            className="fv-btn-cancel no-underline inline-flex items-center"
+          >
             Back
           </Link>
           <button type="submit" className="fv-btn-ok" disabled={pending}>
